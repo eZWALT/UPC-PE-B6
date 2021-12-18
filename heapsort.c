@@ -49,9 +49,7 @@
     int arr[n];
 
     time_t INICI,FINAL;
-      for(int i = 0; i < n; ++i){
-        arr[i] = rand() %n;
-    }
+      for(int i = 0; i < n; ++i) scanf("%d", &arr[i]);
     INICI = clock();
     heapSort(arr, n);
     FINAL = clock();
