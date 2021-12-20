@@ -31,7 +31,7 @@ def heapSort(arr):
 n = int(input())
 arr = numpy.empty(n, dtype=int) #array de n elements
 for i in range(n):
-    arr[i] = int(intput());
+    arr[i] = int(input());
 
 
 INICI = time.time() #Creem una variable amb el temps abans de l'execució
